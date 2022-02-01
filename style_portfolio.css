@@ -1,0 +1,18 @@
+a{
+    text-decoration: none;
+    text-decoration-color: black;
+}
+
+.face{
+    height: 28vh;
+    width: 21vh;
+    content:url("images/face1.png");
+}
+
+.face:hover{
+    content:url("images/face2.png");
+}
+
+.face:active{
+    content:url("images/face3.png");
+}
