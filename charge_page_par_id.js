@@ -1,6 +1,3 @@
-var stacks=[];
-var ActualPageStack=0;
-
 function getProjects(){
     fetch("projects.json")  
         .then(function (response) {
@@ -125,7 +122,7 @@ async function inflate_by_id(id){
 function page_project(){
     document.querySelector("main").innerHTML=' \
         <div id="headerProject"> \
-                <div id="nameProject">Quarto</div> \
+                <div id="nameProject"></div> \
                 <div id="containerLinksProjects"> \
                     <div id="linksProjects"> \
                         <a href="https://topinambour493.github.io/Quarto/" target="_blank" class="linkProject" id="linkWebsiteProject"><img class="iconProject" alt="lien Web" src="pictures/icons/Web.png"></a> \
@@ -166,34 +163,44 @@ function  animationHeadMe(){
     }, 1000);
 }
 
-
-
-document.querySelector("button").addEventListener("click",goPageProjectById)
-
 async function goPageProjectById(projectId){
-    if (stacks.length == 0){
-        stacks = [document.querySelector("main").innerHTML]
-    } else {
-        stacks.push(document.querySelector("main").innerHTML)
-    }
-    ActualPageStack+=1
     page_project();
     inflate_by_id(projectId);
-    window.history.pushState("http://PortfolioJC.", "Project", "");
+    actual_page+=1
+    var state={
+        "idProject":projectId,
+        "page":actual_page
+    }
+    window.history.pushState(state,null,null);
 
     document.querySelector(".right").addEventListener("click",followingSlide)
     document.querySelector(".left").addEventListener("click",previousSlide)
 
     document.addEventListener('keydown', function (e) {
         //if is left arrow
-        if ( e.altKey== 37 ||e.code == 37 || e.which == 37 ) {
+        if ( e.altKey== 37 || e.code == 37 || e.which == 37 ) {
             previousSlide();
         // else if is right arrow
-        } else if (e.keyCode == 39 || e.which == 39) {
+        } else if ( e.altKey== 39 || e.code == 39 || e.which == 39) {
             followingSlide();
-   }
-});
+        }
+    });
 }
 
+async function loadProjectById(projectId){
+    page_project();
+    inflate_by_id(projectId);
 
+    document.querySelector(".right").addEventListener("click",followingSlide)
+    document.querySelector(".left").addEventListener("click",previousSlide)
 
+    document.addEventListener('keydown', function (e) {
+        //if is left arrow
+        if ( e.altKey== 37 || e.code == 37 || e.which == 37 ) {
+            previousSlide();
+        // else if is right arrow
+        } else if ( e.altKey== 39 || e.code == 39 || e.which == 39) {
+            followingSlide();
+        }
+    });
+}

@@ -1,6 +1,5 @@
-var mar;
-
 async function getAllProjects(){
+    document.querySelector("main").innerHTML='<div id="projectsModel" class="scroll"></div>'
     var projects =  await fetch("projects.json")  
         .then(function (response) {
             return response.json();
@@ -10,16 +9,6 @@ async function getAllProjects(){
         })
     fisherYatesShuffle(projects)
     fill_projects(projects)
-
-}
-
-function page_main(){
-    document.querySelector("main").innerHTML=' \
-        <div id="chooseIdProject"> \
-            <input type="number" id="quantity" name="quantity" min="1" max="5"> \
-            <button>click</button> \
-        </div> \
-    '
 }
 
 function fill_projects(projects){
@@ -51,11 +40,13 @@ function fisherYatesShuffle(arr){
     }
 }
 
-window.onpopstate = function(e){
-    ActualPageStack-=1
-    document.querySelector("main").innerHTML=stacks[0]
+
+function goPageMain(){
+    getAllProjects()
+    actual_page+=1
+    var state={
+        "idProject":0,
+        "page":actual_page
+    }
+    history.pushState(state,null,null);
 }
-
-
-
-getAllProjects()
