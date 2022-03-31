@@ -179,7 +179,7 @@ async function goPageProjectById(projectId){
     ActualPageStack+=1
     page_project();
     inflate_by_id(projectId);
-    window.history.pushState("http://PortfolioJC.", "Project", "/"+projectId);
+    window.history.pushState("http://PortfolioJC.", "Project", "");
 
     document.querySelector(".right").addEventListener("click",followingSlide)
     document.querySelector(".left").addEventListener("click",previousSlide)
