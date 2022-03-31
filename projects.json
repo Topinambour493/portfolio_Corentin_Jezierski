@@ -13,7 +13,7 @@
             "Les données sont sauvegardés automatiquement et les joueurs peuvent recommencer la partie à tout moment"
         ],
         "pictures":[
-            "pictures/Pestclap/PestClap1.png"
+            "/pictures/Pestclap/PestClap1.png"
         ],
         "partners":[
             "Fernand Damour"
@@ -36,8 +36,8 @@
             "La page possède un dark mode"
         ],
         "pictures":[
-            "pictures/Trek12/Trek12White.png",
-            "pictures/Trek12/Trek12Black.png"
+            "/pictures/Trek12/Trek12White.png",
+            "/pictures/Trek12/Trek12Black.png"
         ],
         "link_gitHub":"https://github.com/Topinambour493/DicesTrek12",
         "link_website":"https://topinambour493.github.io/DicesTrek12/"
@@ -57,9 +57,9 @@
             "On peut entrer nos noms de joueurs et changer la couleur de nos noms, par défaut joueur1 en rouge et joueur2 en bleu"
         ],
         "pictures":[
-            "pictures/Quarto/Quarto1.png",
-            "pictures/Quarto/Quarto2.png",
-            "pictures/Quarto/Quarto3.png"
+            "/pictures/Quarto/Quarto1.png",
+            "/pictures/Quarto/Quarto2.png",
+            "/pictures/Quarto/Quarto3.png"
         ],
         "link_gitHub":"https://github.com/Topinambour493/Quarto",
         "link_website":"https://topinambour493.github.io/Quarto/"
@@ -76,8 +76,8 @@
             "A la fin de la partie, on peut scruter les 10 meilleurs scores effectué en local"
         ],
         "pictures":[
-            "pictures/Tetris/Tetris1.png",
-            "pictures/Tetris/Tetris2.png"
+            "/pictures/Tetris/Tetris1.png",
+            "/pictures/Tetris/Tetris2.png"
         ],
         "related_projects":[
             {
@@ -98,8 +98,8 @@
             "A la fin de la partie, on peut scruter les 10 meilleurs scores effectué en local"
         ],
         "pictures":[
-            "pictures/Tetri5/Tetri51.png",
-            "pictures/Tetri5/Tetri52.png"
+            "/pictures/Tetri5/Tetri51.png",
+            "/pictures/Tetri5/Tetri52.png"
         ],
         "related_projects":[
             {
@@ -115,9 +115,9 @@
         "description":"C'est une version du jeu 007 où l'on joue contre une IA qui est représenté par Momo",
         "context":"J'ai eu cette idée et je l'ai réalisé immédiatement tellement elle me plaisait",
         "pictures":[
-            "pictures/Momo07/Momo071.png",
-            "pictures/Momo07/Momo072.png",
-            "pictures/Momo07/Momo073.png"
+            "/pictures/Momo07/Momo071.png",
+            "/pictures/Momo07/Momo072.png",
+            "/pictures/Momo07/Momo073.png"
         ]
     },
     {
@@ -127,9 +127,9 @@
         "description":"C'est une version du puissance 4 crée par Howard Wexler",
         "context":"C'est mon projet gros projet en developpement, tous langages confondues",
         "pictures":[
-            "pictures/Puissance4/Puissance41.png",
-            "pictures/Puissance4/Puissance42.png",
-            "pictures/Puissance4/Puissance43.png"
+            "/pictures/Puissance4/Puissance41.png",
+            "/pictures/Puissance4/Puissance42.png",
+            "/pictures/Puissance4/Puissance43.png"
         ]
     },
     {
@@ -138,11 +138,11 @@
         "technologies":["Python3"],
         "description":"C'est un jeu memory amélioré sur le thème du métal. On peut y jouer de 2 à 4 joueurs, choisir le nombres de cartes et surtout si l'on joue avec des cartes identiques ou non. On jouer au memory avec des extraits de musiques, des logos et des pochettes d'album.",
         "pictures":[
-            "pictures/MemoryMetal/MemoryMetal1.png",
-            "pictures/MemoryMetal/MemoryMetal2.png",
-            "pictures/MemoryMetal/MemoryMetal3.png",
-            "pictures/MemoryMetal/MemoryMetal4.png",
-            "pictures/MemoryMetal/MemoryMetal5.png"
+            "/pictures/MemoryMetal/MemoryMetal1.png",
+            "/pictures/MemoryMetal/MemoryMetal2.png",
+            "/pictures/MemoryMetal/MemoryMetal3.png",
+            "/pictures/MemoryMetal/MemoryMetal4.png",
+            "/pictures/MemoryMetal/MemoryMetal5.png"
         ]
     },
     {
@@ -151,8 +151,8 @@
         "technologies":["Python3"],
         "description":"C'est une version du snake",
         "pictures":[
-            "pictures/Snake/Snake1.png",
-            "pictures/Snake/Snake2.png"
+            "/pictures/Snake/Snake1.png",
+            "/pictures/Snake/Snake2.png"
         ]
     }
 ]
