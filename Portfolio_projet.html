@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Projet</title>
     <link rel="stylesheet" href="style_portfolio.css" />
-    <link rel="stylesheet" href="transitions.css" />
 </head>
 <body>
     <header>
@@ -19,7 +18,37 @@
         </div>
     </header>
     <main>
-        <div id="projectsModel" class="scroll"></div>
+        <div id="headerProject">
+            <div id="nameProject">Quarto</div>
+            <div id="containerLinksProjects">
+                <div id="linksProjects">
+                    <a href="https://topinambour493.github.io/Quarto/" target="_blank" class="linkProject" id="linkWebsiteProject"><img class="iconProject" alt="lien Web" src="pictures/icons/Web.png"></a>
+                    <a href="https://github.com/Topinambour493/Quarto" target="_blank" class="linkProject" id="linkGitHubProject"><img class="iconProject" alt="lien GitHub" src="pictures/icons/GitHub.png"></a>
+                </div>
+            </div>
+        </div>
+        <div id="mainProject">
+            <div id="containerTextsProject">
+                <div id="textsProject" class="scroll">
+                    <div id="technologiesProjet">
+                        <div class="title">Technologies:</div>
+                        <div class="text"></div>
+                    </div>
+                    <div id="descriptionProject">
+                        <div class="title">Description:</div>
+                        <div class="text"></div>
+                    </div>
+                    <div id="partnersProject">
+                        <div class="title">Partenaires:</div>
+                        <div class="text"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="picturesProject">
+                <div class="left arrow"></div>
+                <div class="right arrow"></div>
+            </div>
+        </div>
     </main>
     <footer>
         <div id="credits">Crédits</div> 
@@ -33,7 +62,6 @@
         <a href="https://www.flaticon.com/free-icons/menu" title="menu icons">Menu icons created by Freepik - Flaticon</a> -->
     </footer>
 </body>
-<script src="caroussel.js"></script>
 <script src="charge_page_par_id.js"></script>
-<script src="charge_main_page.js"></script>
+<script src="caroussel.js"></script>
 </html>

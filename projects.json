@@ -1,0 +1,158 @@
+[
+    {
+        "id":1,
+        "name":"PestClap",
+        "technologies":[
+            "HTML",
+            "JS",
+            "CSS"
+        ],
+        "description":"C'est un clicker game sur le thème du pestacle.",
+        "context":"Pour mon école nous avions 5 jours pour réaliser un clicker game en javascript, alors que nous avions commencé le javascript 2 jours avant.",
+        "fonctionalities":[
+            "Les données sont sauvegardés automatiquement et les joueurs peuvent recommencer la partie à tout moment"
+        ],
+        "pictures":[
+            "pictures/Pestclap/PestClap1.png"
+        ],
+        "partners":[
+            "Fernand Damour"
+        ],
+        "link_gitHub":"https://github.com/Topinambour493/PestClap",
+        "link_website":"https://topinambour493.github.io/PestClap/"
+    },
+    {
+        "id":2,
+        "name":"Trek 12",
+        "technologies":[
+            "HTML",
+            "JS",
+            "CSS"
+        ],
+        "description":"C'est une page web permettant de simuler 2 dés, l'un allant de 0 à 5 et l'autre de 1 à 6. Cela permet de jouer à trek12, un jeu de roll&write créé par Bruno CATHALA et Corentin LEBRAT.",
+        "context":"Je voulais jouer à trek 12 mais je n'avais pas le jeu et encore moins un dé avec des faces allant de 0 à 5, alors j'ai reglé mon problème en simulant les jets de dés 😁",
+        "fonctionalities":[
+            "Le lancer précédent est affichant en plus petit à droite de l'écran, ce qui permet dêtre certain que l'on a bien lancé les dés lorsque 2 lancers consécutifs sont identiques",
+            "La page possède un dark mode"
+        ],
+        "pictures":[
+            "pictures/Trek12/Trek12White.png",
+            "pictures/Trek12/Trek12Black.png"
+        ],
+        "link_gitHub":"https://github.com/Topinambour493/DicesTrek12",
+        "link_website":"https://topinambour493.github.io/DicesTrek12/"
+    },
+    {
+        "id":3,
+        "name":"Quarto",
+        "technologies":[
+            "HTML",
+            "JS",
+            "CSS"
+        ],
+        "description":"C'est l'adaptation du jeu de société Quarto créé par Blaise Müller.",
+        "context":"J'adore le jeu Quarto mais je ne pouvais pas y jouer quand je voulais par le fait que je ne peut pas l'avoir toujours sur moi, avec la version web, le jeu est dans ma poche en permanence",
+        "fonctionalities":[
+            "On peut jouer au mode classique et expert",
+            "On peut entrer nos noms de joueurs et changer la couleur de nos noms, par défaut joueur1 en rouge et joueur2 en bleu"
+        ],
+        "pictures":[
+            "pictures/Quarto/Quarto1.png",
+            "pictures/Quarto/Quarto2.png",
+            "pictures/Quarto/Quarto3.png"
+        ],
+        "link_gitHub":"https://github.com/Topinambour493/Quarto",
+        "link_website":"https://topinambour493.github.io/Quarto/"
+    },
+    {
+        "id":4,
+        "name":"Tetris",
+        "technologies":["Python3"],
+        "description":"C'est l'adaptation du jeu Tetris créé par Alekseï Pajitnov.",
+        "context":"Un ami s'est lancé le challenge de recréer un tetris, j'ai voulu faire la même chose",
+        "fonctionalities":[
+            "Le jeu est identique au tetris, taille de grille, scorage, acceleration de la vitesse des pièces ...",
+            "La musique On the motorway de Metronomy fonctionne parfaitement avec l'ambiance du jeu",
+            "A la fin de la partie, on peut scruter les 10 meilleurs scores effectué en local"
+        ],
+        "pictures":[
+            "pictures/Tetris/Tetris1.png",
+            "pictures/Tetris/Tetris2.png"
+        ],
+        "related_projects":[
+            {
+                "id":5,
+                "explanation":"C'est une adaptation de ce tetris."
+            }
+        ] 
+    },
+    {
+        "id":5,
+        "name":"Tetri5",
+        "technologies":["Python3"],
+        "description":"C'est une nouvelle version du jeu Tetris créé par Alekseï Pajitnov. Au lieu de jouer avec des blocs de 4 carrés, on joue avec des blocs de 5.",
+        "context":"J'ai imaginé un tetris avec 5 carrés au lieu de 4, et j'ai voulu essayer d'y jouer, pour y jouer j'ai dû le dévelloper",
+        "fonctionalities":[
+            "Un concept qui rend le tetris encore plus addictif par le fait de sa difficulté à maitriser",
+            "La musique On the motorway de Metronomy fonctionne parfaitement avec l'ambiance du jeu",
+            "A la fin de la partie, on peut scruter les 10 meilleurs scores effectué en local"
+        ],
+        "pictures":[
+            "pictures/Tetri5/Tetri51.png",
+            "pictures/Tetri5/Tetri52.png"
+        ],
+        "related_projects":[
+            {
+                "id":4,
+                "explanation":"C'est le Tetris classique, la base sur laquelle je me suis appuyé pour construire le Tetri5"
+            }
+        ]
+    },
+    {
+        "id":6,
+        "name":"Momo07",
+        "technologies":["Python3"],
+        "description":"C'est une version du jeu 007 où l'on joue contre une IA qui est représenté par Momo",
+        "context":"J'ai eu cette idée et je l'ai réalisé immédiatement tellement elle me plaisait",
+        "pictures":[
+            "pictures/Momo07/Momo071.png",
+            "pictures/Momo07/Momo072.png",
+            "pictures/Momo07/Momo073.png"
+        ]
+    },
+    {
+        "id":7,
+        "name":"Puissance 4",
+        "technologies":["Python3"],
+        "description":"C'est une version du puissance 4 crée par Howard Wexler",
+        "context":"C'est mon projet gros projet en developpement, tous langages confondues",
+        "pictures":[
+            "pictures/Puissance4/Puissance41.png",
+            "pictures/Puissance4/Puissance42.png",
+            "pictures/Puissance4/Puissance43.png"
+        ]
+    },
+    {
+        "id":8,
+        "name":"Memory métal",
+        "technologies":["Python3"],
+        "description":"C'est un jeu memory amélioré sur le thème du métal. On peut y jouer de 2 à 4 joueurs, choisir le nombres de cartes et surtout si l'on joue avec des cartes identiques ou non. On jouer au memory avec des extraits de musiques, des logos et des pochettes d'album.",
+        "pictures":[
+            "pictures/MemoryMetal/MemoryMetal1.png",
+            "pictures/MemoryMetal/MemoryMetal2.png",
+            "pictures/MemoryMetal/MemoryMetal3.png",
+            "pictures/MemoryMetal/MemoryMetal4.png",
+            "pictures/MemoryMetal/MemoryMetal5.png"
+        ]
+    },
+    {
+        "id":9,
+        "name":"Snake",
+        "technologies":["Python3"],
+        "description":"C'est une version du snake",
+        "pictures":[
+            "pictures/Snake/Snake1.png",
+            "pictures/Snake/Snake2.png"
+        ]
+    }
+]

@@ -1,0 +1,75 @@
+#containerTextsProject{
+    animation: left_to_right 1.1s;
+}
+
+#picturesProject{
+    animation: right_to_left 1.2s;
+}
+
+#headerProject{
+    animation: down 1.3s;
+}
+
+#projectsModel{
+    animation: enlarge 1s;
+}
+
+@keyframes enlarge {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes shrink {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(0);
+    }
+}
+
+@keyframes down {
+    from {
+        opacity: 0;
+        transform: translateY(-40vmin);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes left_to_right {
+    from {
+        opacity: 0;
+        transform: translateX(-50vmin);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes right_to_left {
+    from {
+        opacity: 0;
+        transform: translateX(50vmin);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
