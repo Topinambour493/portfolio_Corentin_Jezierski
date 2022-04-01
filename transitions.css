@@ -11,7 +11,11 @@
 }
 
 #projectsModel{
-    animation: enlarge 1s;
+    animation: enlarge 1.2s;
+}
+
+#iconsCredits{
+    animation: enlargeCenter 1s;
 }
 
 @keyframes enlarge {
@@ -20,6 +24,15 @@
     }
     to {
         transform: scale(1);
+    }
+}
+
+@keyframes enlargeCenter {
+    from {
+        transform: scale(0) ;
+    }
+    to {
+        transform: scale(1) translateY(-50%);
     }
 }
 
@@ -73,3 +86,5 @@
         transform: rotate(360deg);
     }
 }
+
+ 
