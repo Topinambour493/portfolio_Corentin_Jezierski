@@ -1,8 +1,6 @@
 var actual_page=0;
 
 window.addEventListener("popstate", e =>{
-    console.log("pageAcuel",actual_page)
-    console.log(e.state)
     if (actual_page>e.state.page){
         actual_page-=1
     } else {
