@@ -46,11 +46,7 @@
     {
         "id":3,
         "name":"Quarto",
-        "technologies":[
-            "HTML",
-            "JS",
-            "CSS"
-        ],
+        "technologies":["HTML","JS","CSS"],
         "description":"C'est l'adaptation du jeu de société Quarto créé par Blaise Müller.",
         "context":"J'adore le jeu Quarto mais je ne pouvais pas y jouer quand je voulais par le fait que je ne peut pas l'avoir toujours sur moi, avec la version web, le jeu est dans ma poche en permanence",
         "fonctionalities":[
@@ -154,6 +150,17 @@
         "pictures":[
             "pictures/Snake/Snake1.png",
             "pictures/Snake/Snake2.png"
+        ]
+    },
+    {
+        "id":10,
+        "name":"Portfolio",
+        "technologies":["HTML","JS","CSS"],
+        "description":"C'est mon portfolio, il met en avant mes meilleurs projets.",
+        "pictures":[
+            "pictures/Portfolio/Portfolio1.png",
+            "pictures/Portfolio/Portfolio2.png",
+            "pictures/Portfolio/Portfolio3.png"
         ]
     }
 ]
