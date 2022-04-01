@@ -71,7 +71,7 @@ header{
 }
 
 #rightHeader > img {
-    content: url("/pictures/Me/Me1.png");
+    content: url("../pictures/Me/Me1.png");
     object-fit: cover;
     border-radius: 50%;
     max-width: 100%;
@@ -81,11 +81,11 @@ header{
 }
 
 #rightHeader > img:hover {
-    content: url("/pictures/Me/Me2.png");
+    content: url("../pictures/Me/Me2.png");
 }
 
 #rightHeader > img:active {
-    content: url("/pictures/Me/Me3.png");
+    content: url("../pictures/Me/Me3.png");
     transform: rotate(365deg);
 }
 
