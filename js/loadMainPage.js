@@ -1,16 +1,3 @@
-async function getAllProjects(){
-    document.querySelector("main").innerHTML='<div id="projectsModel" class="scroll"></div>'
-    var projects =  await fetch("projects.json")  
-        .then(function (response) {
-            return response.json();
-        })
-        .then(function (data) {
-            return data
-        })
-    fisherYatesShuffle(projects)
-    fill_projects(projects)
-}
-
 function fill_projects(projects){
     let projectsModel = document.querySelector("#projectsModel");
     for (let i=0;i<projects.length;i++){
@@ -38,15 +25,4 @@ function fisherYatesShuffle(arr){
         var j = Math.floor( Math.random() * (i + 1) ); //random index
         [arr[i],arr[j]]=[arr[j],arr[i]]; // swap
     }
-}
-
-
-function goPageMain(){
-    getAllProjects()
-    actual_page+=1
-    var state={
-        "idProject":0,
-        "page":actual_page
-    }
-    history.pushState(state,null,null);
 }

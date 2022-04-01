@@ -119,43 +119,6 @@ async function inflate_by_id(id){
 }
 
 
-function page_project(){
-    document.querySelector("main").innerHTML=' \
-        <div id="headerProject"> \
-                <div id="nameProject"></div> \
-                <div id="containerLinksProjects"> \
-                    <div id="linksProjects"> \
-                        <a href="https://topinambour493.github.io/Quarto/" target="_blank" class="linkProject" id="linkWebsiteProject"><img class="iconProject" alt="lien Web" src="pictures/icons/Web.png"></a> \
-                        <a href="https://github.com/Topinambour493/Quarto" target="_blank" class="linkProject" id="linkGitHubProject"><img class="iconProject" alt="lien GitHub" src="pictures/icons/GitHub.png"></a> \
-                    </div> \
-                </div> \
-            </div> \
-            <div id="mainProject"> \
-                <div id="containerTextsProject"> \
-                    <div id="textsProject" class="scroll"> \
-                        <div id="technologiesProjet"> \
-                            <div class="title">Technologies:</div> \
-                            <div class="text"></div> \
-                        </div> \
-                        <div id="descriptionProject"> \
-                            <div class="title">Description:</div> \
-                            <div class="text"></div> \
-                        </div> \
-                        <div id="partnersProject"> \
-                            <div class="title">Partenaires:</div> \
-                            <div class="text"></div> \
-                        </div> \
-                    </div> \
-                </div> \
-                <div id="picturesProject"> \
-                    <div class="left arrow"></div> \
-                    <div class="right arrow"></div> \
-                </div> \
-            </div> \
-        '
-}
-
-
 function  animationHeadMe(){
     document.querySelector("#rightHeader > img").style.animation="rotate 1s";
     setTimeout(function(){
@@ -163,44 +126,3 @@ function  animationHeadMe(){
     }, 1000);
 }
 
-async function goPageProjectById(projectId){
-    page_project();
-    inflate_by_id(projectId);
-    actual_page+=1
-    var state={
-        "idProject":projectId,
-        "page":actual_page
-    }
-    window.history.pushState(state,null,null);
-
-    document.querySelector(".right").addEventListener("click",followingSlide)
-    document.querySelector(".left").addEventListener("click",previousSlide)
-
-    document.addEventListener('keydown', function (e) {
-        //if is left arrow
-        if ( e.altKey== 37 || e.code == 37 || e.which == 37 ) {
-            previousSlide();
-        // else if is right arrow
-        } else if ( e.altKey== 39 || e.code == 39 || e.which == 39) {
-            followingSlide();
-        }
-    });
-}
-
-async function loadProjectById(projectId){
-    page_project();
-    inflate_by_id(projectId);
-
-    document.querySelector(".right").addEventListener("click",followingSlide)
-    document.querySelector(".left").addEventListener("click",previousSlide)
-
-    document.addEventListener('keydown', function (e) {
-        //if is left arrow
-        if ( e.altKey== 37 || e.code == 37 || e.which == 37 ) {
-            previousSlide();
-        // else if is right arrow
-        } else if ( e.altKey== 39 || e.code == 39 || e.which == 39) {
-            followingSlide();
-        }
-    });
-}

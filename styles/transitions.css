@@ -18,6 +18,10 @@
     animation: enlargeCenter 1s;
 }
 
+#about{
+    animation: enlarge 1.2s;
+}
+
 @keyframes enlarge {
     from {
         transform: scale(0);
