@@ -2,8 +2,8 @@ var index_slide = 0
 
 async function desactiveSlide(){
         var items = document.getElementsByClassName('active');
-        while(elements.length > 0){
-            elements[0].classList.remove('active');
+        while(items.length > 0){
+            items[0].classList.remove('active');
         }
 
 }
