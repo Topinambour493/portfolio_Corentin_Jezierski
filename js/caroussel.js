@@ -12,7 +12,7 @@ function activeSlide(){
     items[index_slide].classList.add('active');
 }
 
-function changeSlide(n){
+async function changeSlide(n){
     var items = document.querySelectorAll(".pictureProject");
     var nbItems = items.length;
     var response = await desactiveSlide(index_slide);
