@@ -2,9 +2,7 @@ var index_slide = 0
 
 async function desactiveSlide(){
     var items = document.querySelectorAll(".pictureProject");
-    while (items[index_slide].classList.contains("active")){
-        items[index_slide].classList.remove('active');
-    }
+    items[index_slide].classList.remove("active");
 }
 
 function activeSlide(){
