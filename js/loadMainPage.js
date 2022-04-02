@@ -8,8 +8,8 @@ function fill_projects(projects){
         pictureProject.setAttribute("onclick","goPageProjectById("+projects[i].id+")"); 
         nameProject.innerHTML = projects[i].name;
         nameProject.setAttribute("onclick","goPageProjectById("+projects[i].id+")"); 
-        project.appendChild(pictureProject);
         project.appendChild(nameProject);
+        project.appendChild(pictureProject);
         projectsModel.appendChild(project);
     }   
 }

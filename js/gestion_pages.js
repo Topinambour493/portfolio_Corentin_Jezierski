@@ -152,10 +152,6 @@ function pageCredits(){
                 <a href="https://www.flaticon.com/fr/icones-gratuites/lien" target="_blank" class="linkProject" id="linkWebsiteProject"><img class="iconProject" alt="Icone Web" src="pictures/icons/Web.png"></a>  \
                 <a href="https://www.flaticon.com/fr/icones-gratuites/lien" title="lien icônes" target="_blank">Freepik - Flaticon</a> \
             </div> \
-            <div> \
-                <a href="https://www.flaticon.com/fr/icones-gratuites/linkedin" target="_blank" class="linkProject" id="linkWebsiteProject"><img class="iconProject" alt="Icone linkedIn" src="pictures/icons/Linkedin.png"></a> \
-                <a href="https://www.flaticon.com/fr/icones-gratuites/linkedin" title="linkedin icônes" target="_blank">riajulislam - Flaticon</a> \
-            </div> \
         </div> \
     '
 }

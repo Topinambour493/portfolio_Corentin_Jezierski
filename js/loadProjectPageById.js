@@ -117,12 +117,3 @@ async function inflate_by_id(id){
 
     addProject(project);
 }
-
-
-function  animationHeadMe(){
-    document.querySelector("#rightHeader > img").style.animation="rotate 1s";
-    setTimeout(function(){
-        document.querySelector("#rightHeader > img").style.animation="";
-    }, 1000);
-}
-
