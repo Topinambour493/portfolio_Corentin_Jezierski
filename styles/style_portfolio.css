@@ -140,7 +140,6 @@ main{
 }
 
 
-
 #iconsCredits{
     top: 50%;
     transform: translateY(-50%);
@@ -177,9 +176,9 @@ main{
 
 #mainProject{
     display: flex;
-    justify-content: space-between;
-    padding: 1% 2%;
-    height: 80%;
+    justify-content: space-around;
+    padding: 1% 3%;
+    height: 78%;
 }
 
 #containerTextsProject{
@@ -297,7 +296,7 @@ main{
 footer{
     display: flex;
     position:relative;
-    height: 4vh;  
+    bottom: 0.5em;
     justify-content: center;
     gap: 6vw;
     font-size: 0.7em;
@@ -409,7 +408,7 @@ footer{
     font-size: 1.5em;
 }
 
-@media screen and (min-height:calc(1.1*100vw)){
+@media screen and (min-height:calc(1.08*100vw)){
 
     #main{
         justify-content: center;
@@ -418,10 +417,9 @@ footer{
     #mainProject{
         flex-direction: column-reverse;
         align-items: center;
-        justify-content: flex-end;
+        justify-content: space-around;
         height: 100%;
         font-size: 0.95em;
-        padding: 1% 2%;
     }
 
     #containerTextsProject {
@@ -439,4 +437,20 @@ footer{
         max-height: 40%;
     }
 
+    .arrow{
+        height: 11vmax;
+        width: 11vmax;
+    }
+
+    .arrow:hover{
+        height: 13vmax;
+        width: 13vmax;
+    }
+
+}
+
+@media screen and (max-height:550px) and (min-height:calc(1.08*100vw)){
+    #mainProject{
+        justify-content: flex-end;
+    }
 }
