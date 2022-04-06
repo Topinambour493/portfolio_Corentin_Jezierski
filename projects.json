@@ -81,7 +81,8 @@
                 "id":5,
                 "explanation":"C'est une adaptation de ce tetris."
             }
-        ] 
+        ],
+        "link_gitHub":"https://github.com/Topinambour493/Tetris"
     },
     {
         "id":5,
@@ -103,7 +104,8 @@
                 "id":4,
                 "explanation":"C'est le Tetris classique, la base sur laquelle je me suis appuyé pour construire le Tetri5"
             }
-        ]
+        ],
+        "link_gitHub":"https://github.com/Topinambour493/Tetri5"
     },
     {
         "id":6,
@@ -179,6 +181,7 @@
             "pictures/Mub/Mub4.png",
             "pictures/Mub/Mub5.png",
             "pictures/Mub/Mub6.png"
-        ]
+        ],
+        "partners":["Fernand Damour"]
     }
 ]
