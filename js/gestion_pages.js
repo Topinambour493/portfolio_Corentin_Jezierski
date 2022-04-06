@@ -122,12 +122,16 @@ function pageProject(){
                         <div class="title">Technologies:</div> \
                         <div class="text"></div> \
                     </div> \
+                    <div id="partnersProject"> \
+                        <div class="title">Partenaires:</div> \
+                        <div class="text"></div> \
+                    </div> \
                     <div id="descriptionProject"> \
                         <div class="title">Description:</div> \
                         <div class="text"></div> \
                     </div> \
-                    <div id="partnersProject"> \
-                        <div class="title">Partenaires:</div> \
+                    <div id="contextProject"> \
+                        <div class="title">Pourquoi j\'ai fait ce projet:</div> \
                         <div class="text"></div> \
                     </div> \
                 </div> \

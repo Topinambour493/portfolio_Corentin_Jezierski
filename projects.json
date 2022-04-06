@@ -31,7 +31,7 @@
             "CSS"
         ],
         "description":"C'est une page web permettant de simuler 2 dés, l'un allant de 0 à 5 et l'autre de 1 à 6. Cela permet de jouer à trek12, un jeu de roll&write créé par Bruno CATHALA et Corentin LEBRAT.",
-        "context":"Je voulais jouer à trek 12 mais je n'avais pas le jeu et encore moins un dé avec des faces allant de 0 à 5, alors j'ai reglé mon problème en simulant les jets de dés 😁",
+        "context":"Je voulais jouer à trek 12 mais je n'avais pas le jeu et encore moins un dé avec des faces allant de 0 à 5, alors j'ai reglé mon problème en simulant les jets de dés 😁.",
         "fonctionalities":[
             "Le lancer précédent est affichant en plus petit à droite de l'écran, ce qui permet dêtre certain que l'on a bien lancé les dés lorsque 2 lancers consécutifs sont identiques",
             "La page possède un dark mode"
@@ -48,7 +48,7 @@
         "name":"Quarto",
         "technologies":["HTML","JS","CSS"],
         "description":"C'est l'adaptation du jeu de société Quarto créé par Blaise Müller.",
-        "context":"J'adore le jeu Quarto mais je ne pouvais pas y jouer quand je voulais par le fait que je ne peut pas l'avoir toujours sur moi, avec la version web, le jeu est dans ma poche en permanence",
+        "context":"J'adore le jeu Quarto mais je ne pouvais pas y jouer quand je voulais par le fait que je ne peut pas l'avoir toujours sur moi, avec la version web, le jeu est dans ma poche en permanence.",
         "fonctionalities":[
             "On peut jouer au mode classique et expert",
             "On peut entrer nos noms de joueurs et changer la couleur de nos noms, par défaut joueur1 en rouge et joueur2 en bleu"
@@ -66,7 +66,7 @@
         "name":"Tetris",
         "technologies":["Python3"],
         "description":"C'est l'adaptation du jeu Tetris créé par Alekseï Pajitnov.",
-        "context":"Un ami s'est lancé le challenge de recréer un tetris, j'ai voulu faire la même chose",
+        "context":"Un ami s'est lancé le challenge de recréer un tetris, j'ai voulu faire la même chose.",
         "fonctionalities":[
             "Le jeu est identique au tetris, taille de grille, scorage, acceleration de la vitesse des pièces ...",
             "La musique On the motorway de Metronomy fonctionne parfaitement avec l'ambiance du jeu",
@@ -88,7 +88,7 @@
         "name":"Tetri5",
         "technologies":["Python3"],
         "description":"C'est une nouvelle version du jeu Tetris créé par Alekseï Pajitnov. Au lieu de jouer avec des blocs de 4 carrés, on joue avec des blocs de 5.",
-        "context":"J'ai imaginé un tetris avec 5 carrés au lieu de 4, et j'ai voulu essayer d'y jouer, pour y jouer j'ai dû le dévelloper",
+        "context":"J'ai imaginé un tetris avec 5 carrés au lieu de 4, et j'ai voulu essayer d'y jouer, pour y jouer j'ai dû le dévelloper.",
         "fonctionalities":[
             "Un concept qui rend le tetris encore plus addictif par le fait de sa difficulté à maitriser",
             "La musique On the motorway de Metronomy fonctionne parfaitement avec l'ambiance du jeu",
@@ -109,8 +109,8 @@
         "id":6,
         "name":"Momo07",
         "technologies":["Python3"],
-        "description":"C'est une version du jeu 007 où l'on joue contre une IA qui est représenté par Momo",
-        "context":"J'ai eu cette idée et je l'ai réalisé immédiatement tellement elle me plaisait",
+        "description":"C'est une version du jeu 007 où l'on joue contre une IA qui est représenté par Momo.",
+        "context":"J'ai eu cette idée en voyant Mohamed faire les gestes du 007, je l'ai réalisé immédiatement tellement elle me plaisait.",
         "pictures":[
             "pictures/Momo07/Momo071.png",
             "pictures/Momo07/Momo072.png",
@@ -121,8 +121,8 @@
         "id":7,
         "name":"Puissance 4",
         "technologies":["Python3"],
-        "description":"C'est une version du puissance 4 crée par Howard Wexler",
-        "context":"C'est mon projet gros projet en developpement, tous langages confondues",
+        "description":"C'est une version du puissance 4 crée par Howard Wexler.",
+        "context":"Lorsque j'ai découvert le python, jai tout de suite eu envie de développer un jeu. Le puissance 4 est un des premiers qui m'est venu à l'esprit.",
         "pictures":[
             "pictures/Puissance4/Puissance41.png",
             "pictures/Puissance4/Puissance42.png",
@@ -134,6 +134,7 @@
         "name":"Memory métal",
         "technologies":["Python3"],
         "description":"C'est un jeu memory amélioré sur le thème du métal. On peut y jouer de 2 à 4 joueurs, choisir le nombres de cartes et surtout si l'on joue avec des cartes identiques ou non. On peut jouer au memory avec des extraits de musiques, des logos et des pochettes d'album.",
+        "context":"C'est l'idée de pouvoir mélanger des cartes visuelles et des cartes auditives qui m'a le plus donné envie de développer ce memory.",
         "pictures":[
             "pictures/MemoryMetal/MemoryMetal1.png",
             "pictures/MemoryMetal/MemoryMetal2.png",
@@ -146,7 +147,8 @@
         "id":9,
         "name":"Snake",
         "technologies":["Python3"],
-        "description":"C'est une version du snake",
+        "description":"C'est une version du snake.",
+        "context":"Un ami m'a demandé de lui partager mon snake, mais je n'en avais pas, alors j'en ai créé un.",
         "pictures":[
             "pictures/Snake/Snake1.png",
             "pictures/Snake/Snake2.png"
@@ -164,5 +166,19 @@
         ],
         "link_website":"https://topinambour493.github.io/portfolio_Corentin_Jezierski/",
         "link_gitHub":"https://github.com/Topinambour493/portfolio_Corentin_Jezierski"
+    },
+    {
+        "id":11,
+        "name":"MUB",
+        "technologies": ["Laravel","PHP","MySQL","HTML","JS","CSS"],
+        "description":"C'est un site fictif de e-commerce qui permet de vendre du mobilier urbain. On peut voir les différents produits, les ajouter a son panier si l'on est authentifié, valider le panier, voir son historique de commande.",
+        "pictures":[
+            "pictures/Mub/Mub1.png",
+            "pictures/Mub/Mub2.png",
+            "pictures/Mub/Mub3.png",
+            "pictures/Mub/Mub4.png",
+            "pictures/Mub/Mub5.png",
+            "pictures/Mub/Mub6.png"
+        ]
     }
 ]

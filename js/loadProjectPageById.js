@@ -37,6 +37,17 @@ function addCollaborators(collaborators){
     }
 }
 
+function addContext(context){
+    var contextProject = document.querySelector("#contextProject > .text");
+    if (context == undefined){
+        contextProject.parentNode.parentNode.removeChild(contextProject.parentNode);    
+    } else {
+        textContext=context;
+        contextProject.innerHTML=textContext;
+    }
+}
+
+
 function addLinkGitHub(linkGitHub){
     var linkGitHubProject = document.querySelector("#linkGitHubProject")
     if (linkGitHub == undefined){
@@ -95,6 +106,7 @@ function addProject(project){
     nameProject.innerHTML=project.name;
     addTechnologies(project.technologies);
     descriptionProject.innerHTML=project.description;
+    addContext(project.context)
     addPartners(project.partners);
     addLinkGitHub(project.link_gitHub);
     addLinkWebsite(project.link_website);

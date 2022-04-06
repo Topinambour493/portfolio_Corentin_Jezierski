@@ -181,6 +181,10 @@ main{
     height: 78%;
 }
 
+.title{
+    font-weight:bold;
+}
+
 #containerTextsProject{
     position: relative;
     display: flex;
