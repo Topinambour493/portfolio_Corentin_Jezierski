@@ -216,6 +216,8 @@ main{
     overflow: auto;
     text-align: justify;
     padding: 3%;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
 }
 
 .scroll::-webkit-scrollbar {

@@ -117,7 +117,8 @@
             "pictures/Momo07/Momo071.png",
             "pictures/Momo07/Momo072.png",
             "pictures/Momo07/Momo073.png"
-        ]
+        ],
+        "link_gitHub":"https://github.com/Topinambour493/Momo07"
     },
     {
         "id":7,
@@ -129,7 +130,9 @@
             "pictures/Puissance4/Puissance41.png",
             "pictures/Puissance4/Puissance42.png",
             "pictures/Puissance4/Puissance43.png"
-        ]
+        ],
+
+        "link_gitHub":"https://github.com/Topinambour493/Puissance-4"
     },
     {
         "id":8,
@@ -143,7 +146,8 @@
             "pictures/MemoryMetal/MemoryMetal3.png",
             "pictures/MemoryMetal/MemoryMetal4.png",
             "pictures/MemoryMetal/MemoryMetal5.png"
-        ]
+        ],
+        "link_gitHub":"https://github.com/Topinambour493/Memory-Metal"
     },
     {
         "id":9,
@@ -154,7 +158,8 @@
         "pictures":[
             "pictures/Snake/Snake1.png",
             "pictures/Snake/Snake2.png"
-        ]
+        ],
+        "link_gitHub":"https://github.com/Topinambour493/Snake"
     },
     {
         "id":10,
