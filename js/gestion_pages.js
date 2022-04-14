@@ -131,7 +131,7 @@ function pageProject(){
                         <div class="text"></div> \
                     </div> \
                     <div id="contextProject"> \
-                        <div class="title">Pourquoi j\'ai fait ce projet:</div> \
+                        <div class="title">Pourquoi:</div> \
                         <div class="text"></div> \
                     </div> \
                 </div> \
