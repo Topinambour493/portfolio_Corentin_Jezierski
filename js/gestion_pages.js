@@ -169,7 +169,7 @@ function pageAbout(){
             </div> \
             <div id="aboutText" class="scroll"> \
                 <div>Passionné par le développement depuis le lycée, je transforme mes idées en une réalité. Trouver des solutions est vraiment satisfaisant pour moi.</div> \
-                <div>Actuellement étudiant à l\'ETNA (école d\'informatique en alternance), je recherche une alternance en tant que developpeur fullstack à Nantes.</div> \
+                <div>Actuellement étudiant à l\'ETNA (école d\'informatique en alternance), je recherche une alternance en tant que développeur fullstack dès que possible en Île de France.</div> \
             </div> \
             <div id="aboutFooter" class="center"> \
                 <a href="CV développeur fullstack Corentin JEZIERSKI.pdf" target="_blank"><button id="seeResume" class="scroll">Voir mon CV</button></a> \
