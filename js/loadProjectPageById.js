@@ -101,16 +101,20 @@ function addPartners(partners){
 
 
 function addProject(project){
-    const nameProject = document.getElementById("nameProject")
-    const descriptionProject = document.querySelector("#descriptionProject > .text")
-    nameProject.innerHTML=project.name;
-    addTechnologies(project.technologies);
-    descriptionProject.innerHTML=project.description;
-    addContext(project.context)
-    addPartners(project.partners);
-    addLinkGitHub(project.link_gitHub);
-    addLinkWebsite(project.link_website);
-    addPictures(project.pictures);
+    setTimeout(function(){
+        const nameProject = document.getElementById("nameProject")
+        const descriptionProject = document.querySelector("#descriptionProject > .text")
+        nameProject.innerHTML=project.name;
+        addTechnologies(project.technologies);
+        descriptionProject.innerHTML=project.description;
+        addContext(project.context)
+        addPartners(project.partners);
+        addLinkGitHub(project.link_gitHub);
+        addLinkWebsite(project.link_website);
+        addPictures(project.pictures);
+    }, 100)
+    
+
 }
 
 const inflate_by_id = async(id) =>{
