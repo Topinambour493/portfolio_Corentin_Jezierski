@@ -1,14 +1,14 @@
 [
     {
         "id":1,
+        "disabled": false,
         "name":"PestClap",
         "technologies":[
             "HTML",
             "JS",
             "CSS"
         ],
-        "description":"C'est un clicker game sur le thème du pestacle.",
-        "context":"Pour mon école nous avions 5 jours pour réaliser un clicker game en javascript, alors que nous avions commencé le javascript 2 jours avant.",
+        "description":"C'est un clicker game sur le thème du spestacle.",
         "fonctionalities":[
             "Les données sont sauvegardés automatiquement et les joueurs peuvent recommencer la partie à tout moment"
         ],
@@ -24,6 +24,7 @@
     },
     {
         "id":2,
+        "disabled": true,
         "name":"Trek 12",
         "technologies":[
             "HTML",
@@ -45,6 +46,7 @@
     },
     {
         "id":3,
+        "disabled": false,
         "name":"Quarto",
         "technologies":["HTML","JS","CSS"],
         "description":"C'est l'adaptation du jeu de société Quarto créé par Blaise Müller.",
@@ -63,6 +65,7 @@
     },
     {
         "id":4,
+        "disabled": false,
         "name":"Tetris",
         "technologies":["Python3"],
         "description":"C'est l'adaptation du jeu Tetris créé par Alekseï Pajitnov.",
@@ -86,6 +89,7 @@
     },
     {
         "id":5,
+        "disabled": false,
         "name":"Tetri5",
         "technologies":["Python3"],
         "description":"C'est une nouvelle version du jeu Tetris créé par Alekseï Pajitnov. Au lieu de jouer avec des blocs de 4 carrés, on joue avec des blocs de 5.",
@@ -109,6 +113,7 @@
     },
     {
         "id":6,
+        "disabled": true,
         "name":"Momo07",
         "technologies":["Python3"],
         "description":"C'est une version du jeu 007 où l'on joue contre une IA qui est représenté par Momo.",
@@ -122,6 +127,7 @@
     },
     {
         "id":7,
+        "disabled": false,
         "name":"Puissance 4",
         "technologies":["Python3"],
         "description":"C'est une version du puissance 4 crée par Howard Wexler.",
@@ -136,6 +142,7 @@
     },
     {
         "id":8,
+        "disabled": false,
         "name":"Memory métal",
         "technologies":["Python3"],
         "description":"C'est un jeu memory amélioré sur le thème du métal. On peut y jouer de 2 à 4 joueurs, choisir le nombres de cartes et surtout si l'on joue avec des cartes identiques ou non. On peut jouer au memory avec des extraits de musiques, des logos et des pochettes d'album.",
@@ -151,6 +158,7 @@
     },
     {
         "id":9,
+        "disabled": false,
         "name":"Snake",
         "technologies":["Python3"],
         "description":"C'est une version du snake.",
@@ -163,6 +171,7 @@
     },
     {
         "id":10,
+        "disabled": false,
         "name":"Portfolio",
         "technologies":["HTML","JS","CSS"],
         "description":"C'est mon portfolio, il met en avant mes meilleurs projets.",
@@ -176,6 +185,7 @@
     },
     {
         "id":11,
+        "disabled": false,
         "name":"MUB",
         "technologies": ["Laravel","PHP","MySQL","HTML","JS","CSS"],
         "description":"C'est un site fictif de e-commerce qui permet de vendre du mobilier urbain. On peut voir les différents produits, les ajouter a son panier si l'on est authentifié, valider le panier, voir son historique de commande.",

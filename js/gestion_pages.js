@@ -98,13 +98,13 @@ async function pageMain(){
 }
 
 function pageProject(){
-    loadFile('../html/project.html', document.querySelector("main"));
+    loadFile('./html/project.html', document.querySelector("main"));
 }
 
 function pageCredits(){
-    loadFile('../html/credits.html', document.querySelector("main"));
+    loadFile('./html/credits.html', document.querySelector("main"));
 }
 
 function pageAbout(){
-    loadFile('../html/about.html', document.querySelector("main"));
+    loadFile('./html/about.html', document.querySelector("main"));
 }
