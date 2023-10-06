@@ -101,8 +101,8 @@ function addPartners(partners){
 
 
 function addProject(project){
-    var nameProject = document.getElementById("nameProject")
-    var descriptionProject = document.querySelector("#descriptionProject > .text")
+    const nameProject = document.getElementById("nameProject")
+    const descriptionProject = document.querySelector("#descriptionProject > .text")
     nameProject.innerHTML=project.name;
     addTechnologies(project.technologies);
     descriptionProject.innerHTML=project.description;
@@ -113,19 +113,13 @@ function addProject(project){
     addPictures(project.pictures);
 }
 
-async function inflate_by_id(id){
-    var project =  await fetch("projects.json")  
-        .then(function (response) {
-            return response.json();
-        })
-        .then(function (data) {
-            for (let i = 0; i < data.length; i++) {
-                if (data[i].id == id){
-                    return data[i]
-                }
-            }
-        console.error("l'id n'est pas présent dans le fichier json")
-    })
+const inflate_by_id = async(id) =>{
+    const projects = await (await fetch("projects.json")).json()
+    console.log(projects)
+    const targetProject = projects.filter(pro => pro.id === id);
 
-    addProject(project);
+    if(!targetProject || !targetProject.length) throw new Error("The project wasn't found")
+    console.log("Got data",targetProject)
+    addProject(targetProject[0]);
+
 }
