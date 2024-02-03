@@ -197,6 +197,33 @@
             "pictures/Mub/Mub5.png",
             "pictures/Mub/Mub6.png"
         ],
-        "partners":["Fernand Damour"]
+        "partners":["Fernand Damour"],
+        "link_website":"https://mub.corentin-jezierski.fr/",
+        "link_gitHub":"https://github.com/Topinambour493/mub"
+    },
+    {
+        "id":12,
+        "disabled": false,
+        "name":"Hommage François Morellet",
+        "technologies": ["HTML","JS","CSS"],
+        "description":"C'est un site permettant de s'amuser avec l'œuvre Du jaune au violet de François Morellet.",
+        "pictures":[
+            "pictures/Morellet/morellet1.png",
+            "pictures/Morellet/morellet2.png"
+        ],
+        "link_website":"https://hommage-morellet.corentin-jezierski.fr/",
+        "link_gitHub":"https://github.com/Topinambour493/hommage-morellet"
+    },
+    {
+        "id":13,
+        "disabled": true,
+        "name":"Dicoco",
+        "technologies": ["Flask","Python","React","HTML","JS","CSS"],
+        "description":"C'est un site permettant de checher des mots a l'aide de multiples filtres.",
+        "pictures":[
+        ],
+        "partners":["Milan Hergott"],
+        "link_website":"https://dicoco.corentin-jezierski.fr/",
+        "link_gitHub":"https://github.com/Topinambour493/dicoco"
     }
 ]
