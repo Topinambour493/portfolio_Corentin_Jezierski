@@ -69,7 +69,6 @@
         "name":"Tetris",
         "technologies":["Python3"],
         "description":"C'est l'adaptation du jeu Tetris créé par Alekseï Pajitnov.",
-        "context":"Un ami s'est lancé le challenge de recréer un tetris, j'ai voulu faire la même chose.",
         "fonctionalities":[
             "Le jeu est identique au tetris, taille de grille, scorage, acceleration de la vitesse des pièces ...",
             "La musique On the motorway de Metronomy fonctionne parfaitement avec l'ambiance du jeu",
@@ -93,7 +92,7 @@
         "name":"Tetri5",
         "technologies":["Python3"],
         "description":"C'est une nouvelle version du jeu Tetris créé par Alekseï Pajitnov. Au lieu de jouer avec des blocs de 4 carrés, on joue avec des blocs de 5.",
-        "context":"J'ai imaginé un tetris avec 5 carrés au lieu de 4, et j'ai voulu essayer d'y jouer, pour y jouer j'ai dû le dévelloper.",
+        "context":"J'ai imaginé un tetris avec 5 carrés au lieu de 4, et j'ai voulu essayer d'y jouer, pour y jouer j'ai dû le développer.",
         "fonctionalities":[
             "Un concept qui rend le tetris encore plus addictif par le fait de sa difficulté à maitriser",
             "La musique On the motorway de Metronomy fonctionne parfaitement avec l'ambiance du jeu",
