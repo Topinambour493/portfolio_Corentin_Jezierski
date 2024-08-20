@@ -215,13 +215,16 @@
     },
     {
         "id":13,
-        "disabled": true,
+        "disabled": false,
         "name":"Dicoco",
         "technologies": ["Flask","Python","React","HTML","JS","CSS"],
-        "description":"C'est un site permettant de checher des mots a l'aide de multiples filtres.",
-        "pictures":[
-        ],
+        "description":"C'est un site permettant la recherche et le filtrage de mots sur le dictionnaire français.",
         "partners":["Milan Hergott"],
+        "pictures":[
+            "pictures/Dicoco/dicoco1.png",
+            "pictures/Dicoco/dicoco2.png",
+            "pictures/Dicoco/dicoco3.png"
+        ],
         "link_website":"https://dicoco.corentin-jezierski.fr/",
         "link_gitHub":"https://github.com/Topinambour493/dicoco"
     }
