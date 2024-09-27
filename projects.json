@@ -60,8 +60,8 @@
             "pictures/Quarto/Quarto2.png",
             "pictures/Quarto/Quarto3.png"
         ],
-        "link_gitHub":"https://github.com/Topinambour493/Quarto",
-        "link_website":"https://topinambour493.github.io/Quarto/"
+        "link_gitHub":"https://github.com/Topinambour493/quarto-multi",
+        "link_website":"https://quarto.corentin-jezierski.fr/"
     },
     {
         "id":4,
@@ -225,7 +225,7 @@
             "pictures/Dicoco/dicoco2.png",
             "pictures/Dicoco/dicoco3.png"
         ],
-        "link_website":"https://dicoco.corentin-jezierski.fr/",
+        "link_website":"https://dicoco-v2.corentin-jezierski.fr/",
         "link_gitHub":"https://github.com/Topinambour493/dicoco"
     }
 ]
