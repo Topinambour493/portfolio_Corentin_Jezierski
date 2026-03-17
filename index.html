@@ -12,28 +12,20 @@
 </head>
 <body>
     <header>
-        <div id="leftHeader">
-            <div id="nameWebsite" onclick="goPageMain()" >Portfolio</div>
-            <div id="nameLastname" onclick="goPageAbout()">Corentin Jezierski</div>
-        </div>
-        <div id="centerHeader">
-            <!-- <select  id="filterTechnologie">
-                <option>Toutes les technologies</option>
-                <option>Python</option>
-                <option>CSS</option>
-                <option>JS</option>
-                <option>HTML</option>
-            </select> -->
-        </div>
-        <div id="rightHeader">
-            <img alt="moi"> 
-        </div>
     </header>
     <main>
+        <div class="center" id="mainHome">
+            <div id="leftHeader">
+                <div class="nameWebsite" onclick="goPageMain()" >Portfolio</div>
+                <div class="nameLastname" onclick="goPageAbout()">Corentin Jezierski</div>
+            </div>
+            <div id="rightHeader">
+                <img alt="moi">
+            </div>
+        </div>
     </main>
     <footer>
-        <div id="creditsLink" class="textFooter" onclick="goPageCredits()">Crédits</div> 
-        <div id="aboutLink" class="textFooter" onclick="goPageAbout()">A propos</div>
+        <div></div>
     </footer>
 </body>
 <script src="js/loadFile.js"></script>
@@ -42,5 +34,5 @@
 <script src="js/gestion_pages.js"></script>
 <script src="js/loadProjectPageById.js"></script>
 <script src="js/startWebsite.js"></script>
-
+<script src="js/animationFlip.js"></script>
 </html>

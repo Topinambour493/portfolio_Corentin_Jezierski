@@ -119,11 +119,9 @@ function addProject(project){
 
 const inflate_by_id = async(id) =>{
     const projects = await (await fetch("projects.json")).json()
-    console.log(projects)
     const targetProject = projects.filter(pro => pro.id === id);
 
     if(!targetProject || !targetProject.length) throw new Error("The project wasn't found")
-    console.log("Got data",targetProject)
     addProject(targetProject[0]);
 
 }

@@ -8,10 +8,6 @@ window.addEventListener("popstate", e =>{
     }
     if (e.state.idProject==0){
         pageMain()
-    } else if (e.state.idProject == -1){
-        pageCredits()
-    } else if (e.state.idProject == -2){
-        pageAbout()
     } else {
         loadProjectById(e.state.idProject)
     }
@@ -85,26 +81,29 @@ function goPageAbout(){
 
 
 async function pageMain(){
-    document.querySelector("main").innerHTML='<div id="projectsModel" class="scroll"></div>'
-    var projects =  await fetch("projects.json")  
+    document.querySelector("header").innerHTML='<div id="centerHeader"></div>'
+    document.querySelector("main").innerHTML='    ' +
+        '<div class="center" id="mainHome">\n' +
+        '        <div id="leftHeader" onclick="goPageMain()">\n' +
+        '            <div class="nameWebsite">Portfolio</div>\n' +
+        '            <div class="nameLastname"">Corentin Jezierski</div>\n' +
+        '        </div>\n' +
+        '        <div id="rightHeader">\n' +
+        '            <img alt="moi">\n' +
+        '        </div>\n' +
+        '</div>' +
+        '<div id="projectsModel" class="scroll"></div>'
+    var projects =  await fetch("projects.json")
         .then(function (response) {
             return response.json();
         })
         .then(function (data) {
             return data
         })
-    fisherYatesShuffle(projects)
     fill_projects(projects)
 }
 
 function pageProject(){
     loadFile('./html/project.html', document.querySelector("main"));
-}
-
-function pageCredits(){
-    loadFile('./html/credits.html', document.querySelector("main"));
-}
-
-function pageAbout(){
-    loadFile('./html/about.html', document.querySelector("main"));
+    loadFile('./html/header.html', document.querySelector("header"));
 }

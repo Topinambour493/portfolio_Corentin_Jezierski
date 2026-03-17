@@ -5,21 +5,17 @@
 }
 
 html{
-font-size: calc(0.5em + 1.8vmin);
+    font-size: calc(0.5em + 1.8vmin);
 }
 
 html,body{
-    height: 100%;
+    height: 200vh;
     width:100%;
-    overflow: hidden;
 }
 
 body{
     /* Created with https://www.css-gradient.com */
-    background: #FF75AA;
-    background: -webkit-linear-gradient(top, #FF75AA, #01F6D3);
-    background: -moz-linear-gradient(top, #FF75AA, #01F6D3);
-    background: linear-gradient(to bottom, #FF75AA, #01F6D3);
+    background: #fbfad8;
 
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
@@ -28,18 +24,22 @@ body{
 }
 
 header{
+    position: sticky;
+    top: 0;
     padding:0.5% 2%;
     display: flex;
     justify-content: space-between;
     height: 8vh;
+    background: blueviolet;
 }
 
-#nameWebsite{
-    font-size: 1.4em;
+.nameWebsite{
+    font-size: 2.5em;
     cursor: pointer;
 }
 
-#nameLastname{
+.nameLastname{
+    font-size: 2.1em;
     cursor: pointer;
 }
 
@@ -60,17 +60,22 @@ header{
     background-position: 97%;
     background-repeat: no-repeat;
     background-size:
-    10px 10px,
-    10px 10px,
-    3em 3em;
+            10px 10px,
+            10px 10px,
+            3em 3em;
     min-width:35vw;
     width: fit-content
 }
 
+#leftHeader #flipScript{
+    position: relative;
+    right: 6%;
+}
+
 #rightHeader {
-    position: absolute;
+    position: relative;
     top: 3%;
-    right: 2%;
+    right: 0%;
     width:13vmin;
     height: 13vmin;
 }
@@ -117,7 +122,7 @@ main{
     text-decoration: none;
     color:black;
 }
-   
+
 
 #containerLinksProjects{
     display: flex;
@@ -126,8 +131,8 @@ main{
 }
 
 #linksProjects{
-    display: flex;   
-    justify-content: space-around; 
+    display: flex;
+    justify-content: space-around;
     height: 2.5em;
     padding-left: 2%;
 }
@@ -135,7 +140,7 @@ main{
 .iconProject{
     max-height:100%;
     max-width:100%;
-    object-fit: contain; 
+    object-fit: contain;
     padding-left: 0.5em;
 }
 
@@ -247,8 +252,8 @@ main{
     object-fit: contain;
     box-shadow: 2px 2px 4px #000000;
     max-height: 100%;
-    max-width: 100%;  
-    border-radius: 10px;  
+    max-width: 100%;
+    border-radius: 10px;
 }
 
 .pictureProjectModel:hover, .nameProjectModel:hover + .pictureProjectModel{
@@ -348,13 +353,13 @@ footer{
     transform: translate(-50%, -50%);
     font-size: 3vmin;
     color: #f5f5f5;
-    text-shadow:     
-    0 0 10px rgba(0,0,0,.2),
-   0 2px 6px rgba(0,0,0,.7),
-   0 6px 10px rgba(0,0,0,.7),
-  0 10px 20px rgba(0,0,0,.7),
- 0 20px 20px rgba(0,0,0,.7),
- 0 40px 40px rgba(0,0,0,1);
+    text-shadow:
+            0 0 10px rgba(0,0,0,.2),
+            0 2px 6px rgba(0,0,0,.7),
+            0 6px 10px rgba(0,0,0,.7),
+            0 10px 20px rgba(0,0,0,.7),
+            0 20px 20px rgba(0,0,0,.7),
+            0 40px 40px rgba(0,0,0,1);
 }
 
 
@@ -439,6 +444,12 @@ footer{
     }
 
 }
+
+#mainHome{
+    position: relative;
+}
+
+
 
 @media screen and (max-height:550px) and (min-height:calc(1.08*100vw)){
     #mainProject{

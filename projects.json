@@ -1,26 +1,18 @@
 [
     {
-        "id":1,
+        "id":13,
         "disabled": false,
-        "name":"PestClap",
-        "technologies":[
-            "HTML",
-            "JS",
-            "CSS"
-        ],
-        "description":"C'est un clicker game sur le thème du spestacle.",
-        "fonctionalities":[
-            "Les données sont sauvegardés automatiquement et les joueurs peuvent recommencer la partie à tout moment"
-        ],
+        "name":"Dicoco",
+        "technologies": ["Flask","Python","React","HTML","JS","CSS"],
+        "description":"C'est un site permettant la recherche et le filtrage de mots sur le dictionnaire français.",
+        "partners":["Milan Hergott"],
         "pictures":[
-            "pictures/PestClap/PestClap1.png",
-            "pictures/PestClap/PestClap2.png"
+            "pictures/Dicoco/dicoco1.png",
+            "pictures/Dicoco/dicoco2.png",
+            "pictures/Dicoco/dicoco3.png"
         ],
-        "partners":[
-            "Fernand Damour"
-        ],
-        "link_gitHub":"https://github.com/Topinambour493/PestClap",
-        "link_website":"https://topinambour493.github.io/PestClap/"
+        "link_website":"https://dicoco.corentin-jezierski.fr/",
+        "link_gitHub":"https://github.com/Topinambour493/dicoco"
     },
     {
         "id":2,
@@ -157,11 +149,10 @@
     },
     {
         "id":9,
-        "disabled": false,
+        "disabled": true,
         "name":"Snake",
         "technologies":["Python3"],
         "description":"C'est une version du snake.",
-        "context":"Un ami m'a demandé de lui partager mon snake, mais je n'en avais pas, alors j'en ai créé un.",
         "pictures":[
             "pictures/Snake/Snake1.png",
             "pictures/Snake/Snake2.png"
@@ -170,7 +161,7 @@
     },
     {
         "id":10,
-        "disabled": false,
+        "disabled": true,
         "name":"Portfolio",
         "technologies":["HTML","JS","CSS"],
         "description":"C'est mon portfolio, il met en avant mes meilleurs projets.",
@@ -202,7 +193,7 @@
     },
     {
         "id":12,
-        "disabled": false,
+        "disabled": true,
         "name":"Hommage François Morellet",
         "technologies": ["HTML","JS","CSS"],
         "description":"C'est un site permettant de s'amuser avec l'œuvre Du jaune au violet de François Morellet.",
@@ -214,18 +205,26 @@
         "link_gitHub":"https://github.com/Topinambour493/hommage-morellet"
     },
     {
-        "id":13,
+        "id":1,
         "disabled": false,
-        "name":"Dicoco",
-        "technologies": ["Flask","Python","React","HTML","JS","CSS"],
-        "description":"C'est un site permettant la recherche et le filtrage de mots sur le dictionnaire français.",
-        "partners":["Milan Hergott"],
-        "pictures":[
-            "pictures/Dicoco/dicoco1.png",
-            "pictures/Dicoco/dicoco2.png",
-            "pictures/Dicoco/dicoco3.png"
+        "name":"PestClap",
+        "technologies":[
+            "HTML",
+            "JS",
+            "CSS"
         ],
-        "link_website":"https://dicoco-v2.corentin-jezierski.fr/",
-        "link_gitHub":"https://github.com/Topinambour493/dicoco"
+        "description":"C'est un clicker game sur le thème du spectacle.",
+        "fonctionalities":[
+            "Les données sont sauvegardés automatiquement et les joueurs peuvent recommencer la partie à tout moment"
+        ],
+        "pictures":[
+            "pictures/PestClap/PestClap1.png",
+            "pictures/PestClap/PestClap2.png"
+        ],
+        "partners":[
+            "Fernand Damour"
+        ],
+        "link_gitHub":"https://github.com/Topinambour493/PestClap",
+        "link_website":"https://topinambour493.github.io/PestClap/"
     }
 ]
