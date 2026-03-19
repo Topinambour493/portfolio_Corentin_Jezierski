@@ -6,17 +6,17 @@
 
 html{
     font-size: calc(0.5em + 1.8vmin);
+    overflow-y: scroll;
 }
 
 html,body{
-    height: 200vh;
+    min-height: 100vh;
     width:100%;
 }
 
 body{
     /* Created with https://www.css-gradient.com */
     background: #fbfad8;
-
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
     justify-content: space-between;
@@ -29,27 +29,33 @@ header{
     padding:0.5% 2%;
     display: flex;
     justify-content: space-between;
-    height: 8vh;
-    background: blueviolet;
+    height: 13vh;
+    background: #fbfad8;
+    z-index:2;
 }
 
+.sticky {
+    position: fixed;
+    width: 100%;
+    height: 8vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 5vh;
+}
+
+
+
 .nameWebsite{
-    font-size: 2.5em;
+    font-size: 1.7em;
     cursor: pointer;
 }
 
 .nameLastname{
-    font-size: 2.1em;
+    font-size: 2.2em;
     cursor: pointer;
 }
 
-
-#centerHeader{
-    position: absolute;
-    top:4%;
-    left:50%;
-    transform: translateX(-50%)
-}
 
 #filterTechnologie{
     margin-right: 15px;
@@ -67,10 +73,16 @@ header{
     width: fit-content
 }
 
-#leftHeader #flipScript{
-    position: relative;
-    right: 6%;
+
+
+
+
+#leftHeader {
+    cursor: pointer;
+    margin-right: 20px;
 }
+
+
 
 #rightHeader {
     position: relative;
@@ -78,7 +90,10 @@ header{
     right: 0%;
     width:13vmin;
     height: 13vmin;
+    cursor: pointer;
 }
+
+
 
 #rightHeader > img {
     content: url("../pictures/Me/Me1.png");
@@ -100,8 +115,22 @@ header{
     transform: rotate(365deg) scale(1.3);
 }
 
+.cta-projects {
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    transition: transform 0.2s ease;
+    animation: float 2s ease-in-out infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%
+}
+
 main{
-    height: 80vh;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -270,7 +299,7 @@ main{
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
-    background: content-box radial-gradient(rgb(197, 10, 47), skyblue);
+    background: #91a6ff
 }
 
 .arrow:hover{
@@ -312,11 +341,12 @@ footer{
     flex-direction: column;
 }
 
-#projectsModel{
+#projects{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin: 0 20vmin;
+    margin-top: 80vh;
 }
 
 .projectModel{
@@ -366,13 +396,30 @@ footer{
 #seeResume{
     cursor: pointer;
     position: relative;
-    bottom:10%;
-    padding: 5%;
+    bottom:15%;
+    padding: 5% 15%;
+    font-size: 0.5em;
     text-align: center;
+    z-index: 2;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #f8f8fd;
+    border-radius: 1em;
+    border: 6px solid #91a6ff;
+
+    box-shadow: 0px 8px #1f35ff;
 }
 
-#seeResume:hover{
-    box-shadow: 4px 4px 8px #000000;
+#seeResume:active {
+    box-shadow: 0px 0px;
+    bottom:2%;
+    border: 6px solid #646fff;
+}
+
+
+#aboutMe{
+    position: relative;
+    padding: 15vh 5% 5%;
 }
 
 #aboutText{
@@ -414,7 +461,7 @@ footer{
         flex-direction: column-reverse;
         align-items: center;
         justify-content: space-around;
-        height: 100%;
+        height: 90%;
         font-size: 0.95em;
     }
 
@@ -443,10 +490,6 @@ footer{
         width: 13vmax;
     }
 
-}
-
-#mainHome{
-    position: relative;
 }
 
 

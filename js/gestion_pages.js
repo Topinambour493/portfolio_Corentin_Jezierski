@@ -28,6 +28,7 @@ async function loadProjectById(projectId){
 }
 
 function goPageMain(){
+    window.scrollTo(1, 0);
     pageMain()
     actual_page+=1
     var state={
@@ -81,7 +82,9 @@ function goPageAbout(){
 
 
 async function pageMain(){
-    document.querySelector("header").innerHTML='<div id="centerHeader"></div>'
+    document.getElementsByTagName("html")[0].style.overflowY="scroll";
+    document.querySelector("main").style.height='auto';
+    document.querySelector("header").innerHTML='<div id="centerHeader"></div>';
     document.querySelector("main").innerHTML='    ' +
         '<div class="center" id="mainHome">\n' +
         '        <div id="leftHeader" onclick="goPageMain()">\n' +
@@ -92,18 +95,25 @@ async function pageMain(){
         '            <img alt="moi">\n' +
         '        </div>\n' +
         '</div>' +
-        '<div id="projectsModel" class="scroll"></div>'
-    var projects =  await fetch("projects.json")
-        .then(function (response) {
-            return response.json();
-        })
-        .then(function (data) {
-            return data
-        })
-    fill_projects(projects)
+        '<div class="center"> \n' +
+        '        <a href="CV Developpeur Fullstack Corentin JEZIERSKI.pdf" target="_blank"><button id="seeResume" class="scroll">Voir mon CV</button></a> \n' +
+        '</div> \n' +
+        '<div class="center" id="aboutMe">Développeur Full-Stack spécialisé Back-End<br/><br/> \n'+
+        'Je conçois des applications robustes, performantes et maintenables. </div> \n' +
+        '<div class="cta-projects center" onClick="scrollToProjects()">Voir mes projets ↓</div> \n' +
+        '<div id="projects"></div>'
+    fill_projects(await loadProjects())
+    if (block){
+        initFLIP()
+    }
+    window.scrollTo(1, 0);
+    updateAnimation()
 }
 
 function pageProject(){
-    loadFile('./html/project.html', document.querySelector("main"));
+    document.querySelector("html").style.overflowY="hidden";
+    document.querySelector("main").style.height='70vh';
     loadFile('./html/header.html', document.querySelector("header"));
+    loadFile('./html/project.html', document.querySelector("main"));
+    window.scrollTo(0, 0);
 }

@@ -1,5 +1,5 @@
 function fill_projects(projects){
-    let projectsModel = document.querySelector("#projectsModel");
+    let projectsModel = document.querySelector("#projects");
     for (let i=0;i<projects.length;i++){
         if (projects[i].disabled) continue;
         let project = createTag("div","projectModel");

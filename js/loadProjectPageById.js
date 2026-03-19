@@ -1,16 +1,4 @@
-function getProjects(){
-    fetch("projects.json")  
-        .then(function (response) {
-            return response.json();
-        })
-        .then(function (data) {
-            var projects=[]
-            for (let i = 0; i < data.length; i++) {
-                projects.push(data[i])
-            }
-            return projects
-        })
-}
+
 
 function addTechnologies(technologies){
     var technologiesProjet = document.querySelector("#technologiesProjet > .text")
@@ -118,7 +106,6 @@ function addProject(project){
 }
 
 const inflate_by_id = async(id) =>{
-    const projects = await (await fetch("projects.json")).json()
     const targetProject = projects.filter(pro => pro.id === id);
 
     if(!targetProject || !targetProject.length) throw new Error("The project wasn't found")
