@@ -94,12 +94,11 @@ async function pageMain(){
         '        <div id="rightHeader">\n' +
         '            <img alt="moi">\n' +
         '        </div>\n' +
-        '</div>' +
-        '<div class="center"> \n' +
-        '        <a href="CV Developpeur Fullstack Corentin JEZIERSKI.pdf" target="_blank"><button id="seeResume" class="scroll">Voir mon CV</button></a> \n' +
-        '</div> \n' +
+        '</div>\n' +
         '<div class="center" id="aboutMe">Développeur Full-Stack spécialisé Back-End<br/><br/> \n'+
-        'Je conçois des applications robustes, performantes et maintenables. </div> \n' +
+        'Je conçois des applications robustes, performantes et maintenables.<br/><br/>  \n' +
+        '<a href="CV Developpeur Fullstack Corentin JEZIERSKI.pdf" target="_blank"><button id="seeResume" class="scroll">Voir mon CV</button></a> \n' +
+        '</div> \n' +
         '<div class="cta-projects center" onClick="scrollToProjects()">Voir mes projets ↓</div> \n' +
         '<div id="projects"></div>'
     fill_projects(await loadProjects())

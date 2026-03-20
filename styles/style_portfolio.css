@@ -295,11 +295,10 @@ main{
     height: 11vmin;
     width: 11vmin;
     opacity: 0.85;
-    background-color: black;
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
-    background: #91a6ff
+    background: #957563
 }
 
 .arrow:hover{
@@ -345,8 +344,7 @@ footer{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 0 20vmin;
-    margin-top: 80vh;
+    margin: 60vh 20vmin 0;
 }
 
 .projectModel{
@@ -394,30 +392,29 @@ footer{
 
 
 #seeResume{
-    cursor: pointer;
-    position: relative;
-    bottom:15%;
-    padding: 5% 15%;
-    font-size: 0.5em;
-    text-align: center;
-    z-index: 2;
+    display: inline-block;
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 13px;
+    letter-spacing: 0.12em;
     text-transform: uppercase;
-    font-weight: bold;
-    background-color: #f8f8fd;
-    border-radius: 1em;
-    border: 6px solid #91a6ff;
-
-    box-shadow: 0px 8px #1f35ff;
+    color: #fbfad8;
+    background: #2a2a20;
+    border: 1px solid #2a2a20;
+    padding: 10px 28px;
+    cursor: pointer;
+    transition: background 0.25s, color 0.25s, border-color 0.25s;
 }
 
-#seeResume:active {
-    box-shadow: 0px 0px;
-    bottom:2%;
-    border: 6px solid #646fff;
+#seeResume:hover {
+    background: transparent;
+    color: #2a2a20;
 }
 
 
 #aboutMe{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     position: relative;
     padding: 15vh 5% 5%;
 }
